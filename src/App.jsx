@@ -1,6 +1,7 @@
 import React from "react";
 import DarkTheme from "./components/DarkTheme";
 import "./index.css";
+import CustomModalPopUp from "./components/customModalPopup";
 
 const App = () => {
   return (
@@ -9,7 +10,8 @@ const App = () => {
       {/* <Accordian /> */}
       {/* <RandomColor /> */}
       {/* <Star_Rating /> */}
-      <DarkTheme />
+      {/* <DarkTheme /> */}
+      <CustomModalPopUp />
     </>
   );
 };
