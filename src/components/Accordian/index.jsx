@@ -6,6 +6,7 @@ const Accordian = () => {
   const [selected, setSelected] = useState(null);
   const [enableMultipleSelection, setenableMultipleSelection] = useState(false);
   const [multiple, setmultiple] = useState([]);
+  //
 
   const handleSingleSelection = (getCurrentId) => {
     console.log(getCurrentId);
