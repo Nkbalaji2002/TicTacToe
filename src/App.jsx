@@ -1,5 +1,5 @@
 import React from "react";
-import Star_Rating from "./components/Star_Rating";
+import DarkTheme from "./components/DarkTheme";
 
 const App = () => {
   return (
@@ -7,7 +7,8 @@ const App = () => {
       {/* <h1>Hello World from React</h1> */}
       {/* <Accordian /> */}
       {/* <RandomColor /> */}
-      <Star_Rating />
+      {/* <Star_Rating /> */}
+      <DarkTheme />
     </>
   );
 };
