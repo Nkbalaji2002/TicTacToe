@@ -1,0 +1,7 @@
+.custom-rating .p-rating-icon:hover {
+  font-size: 24px; /* Increase the size of the stars on hover */
+}
+
+.custom-rating .p-rating-icon {
+  font-size: 20px; /* Set the initial size of the stars */
+}
