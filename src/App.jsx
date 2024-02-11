@@ -1,5 +1,6 @@
 import React from "react";
 import DarkTheme from "./components/DarkTheme";
+import "./index.css";
 
 const App = () => {
   return (
