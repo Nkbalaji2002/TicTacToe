@@ -9,7 +9,7 @@ const Modal = ({ id, header, body, footer, onClose }) => {
             <span className="close-modal-icon" onClick={onClose}>
               &times;
             </span>
-            <h2>{header ? header : "Header"}</h2>
+            <h3>{header ? header : "Header"}</h3>
           </div>
 
           <div className="body">
@@ -22,7 +22,7 @@ const Modal = ({ id, header, body, footer, onClose }) => {
             )}
           </div>
 
-          <div className="footer">{footer ? footer : <h2>Footer</h2>}</div>
+          <div className="footer">{footer ? footer : <h4>Footer</h4>}</div>
         </div>
       </div>
     </>
