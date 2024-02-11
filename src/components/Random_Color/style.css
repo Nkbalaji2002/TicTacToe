@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  text-align: center;
+  max-height: 100vh;
+}
+
+button {
+  margin-top: 15px;
+}
+
+.showColor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 60px;
+  margin-top: 50px;
+  flex-direction: column;
+  gap: 20px;
+}
