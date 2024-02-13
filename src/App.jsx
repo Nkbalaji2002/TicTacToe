@@ -1,11 +1,15 @@
 import React from "react";
 import "./index.css";
-import CustomTabs from "./components/TabsCustom";
+
+import "primeicons/primeicons.css";
+import TreeView from "./components/TreeView";
+import { menus } from "./components/TreeView/data";
 
 const App = () => {
   return (
     <>
-      <CustomTabs />
+      {/* <CustomTabs /> */}
+      <TreeView menus={menus} />
     </>
   );
 };
